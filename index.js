@@ -336,7 +336,7 @@ const alphabets = 'abcdefghijklmnopqrstuvwxyz'
 let counter = 0
 
 for (var i = 0; i < alphabets.length; i++) {
-    var letter = alphabets[i];
+    var letter = alphabets[i]; 
     if (stationToLower.indexOf(letter) > -1)
     counter++;
 }
@@ -345,7 +345,7 @@ console.log(`There are ${counter} letters and the set of sation is ${finalStatio
 else{
     console.log(`found ${counter}`)
 }
-//so i firs conver the array in to a lowerscase array to the remove the case sensitivity
+//so i have first converted the array in to a lowerscase array to the remove the case sensitivity
 //then made a alphabet array and used map and a for loop to make an array of objects which had the station name and the number of letters from the alphabet.
 //I then sorted that array so that the station with the greatest number of alphabet letters is first.
 //I then pushed the name of that station to the final array .
